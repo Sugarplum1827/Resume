@@ -1,23 +1,20 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
     display: flex;
-    justify-content: center;
 }
 
 .resume {
     display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    max-width: 1200px;
+    width: 80%;
     margin: 20px auto;
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Left Column (Sidebar) */
 .left-column {
     width: 35%;
     background-color: #d2bfbf;
@@ -27,8 +24,6 @@ body {
 
 .left-column .photo img {
     width: 70%;
-    max-width: 150px;
-    border-radius: 50%;
 }
 
 .section {
@@ -36,14 +31,14 @@ body {
     text-align: left;
     font-family: 'Lato', sans-serif;
     color: #272828;
+    
 }
-
-.section strong {
+.section strong{
     font-family: 'Garet';
     color: #3d3d3d;
 }
 
-.section h3 {
+.section h3{
     font-family: 'Garet', sans-serif;
     color: #3d3d3d;
     padding-bottom: 0px;
@@ -61,18 +56,18 @@ body {
 
 .section ul {
     list-style-type: disc;
+    padding: 0;
     padding-left: 30px;
 }
 
 .section ul li {
     padding: 5px 0;
+    padding-left: 0px;
 }
 
-.section p {
-    padding-top: 0px;
+.section p{
+ padding-top: 0px;
 }
-
-/* Right Column (Main Content) */
 .right-column {
     width: 65%;
     padding: 20px;
@@ -81,7 +76,7 @@ body {
 .right-column h1 {
     font-size: 40px;
     margin-bottom: 10px;
-    color: #3d3d3d;
+    color: #3d3d3d ;
     font-family: 'Garet', sans-serif;
 }
 
@@ -92,101 +87,20 @@ body {
     color: #272828;
 }
 
-.title p {
+.title p{
     color: #737373;
 }
-
-.cite p {
+.cite p{
     font-size: 10px;
     font-family: 'Garet', sans-serif;
-    color: #3d3d3d;
+    color: #3d3d3d ;
     text-align: center;
-    font-weight: 900;
+    font-weight: 900 ;
 }
-
-.signature p {
+.signature p{
     font-size: 10px;
     font-family: 'Lato', sans-serif;
-    color: #272828;
+    color: #272828 ;
     text-align: center;
-    font-weight: 900;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .resume {
-        width: 95%;
-        flex-direction: column;
-    }
-
-    .left-column,
-    .right-column {
-        width: 100%;
-        padding: 15px;
-    }
-
-    .left-column {
-        text-align: center;
-    }
-
-    .left-column .photo img {
-        width: 50%;
-    }
-
-    .right-column h1 {
-        font-size: 30px;
-    }
-
-    .right-column p {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 768px) {
-    .resume {
-        width: 100%;
-        margin: 10px;
-    }
-
-    .left-column,
-    .right-column {
-        padding: 10px;
-    }
-
-    .left-column .photo img {
-        width: 40%;
-    }
-
-    .right-column h1 {
-        font-size: 28px;
-    }
-
-    .right-column p {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 480px) {
-    .resume {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .left-column,
-    .right-column {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .left-column .photo img {
-        width: 60%;
-    }
-
-    .right-column h1 {
-        font-size: 24px;
-    }
-
-    .right-column p {
-        font-size: 12px;
-    }
+    font-weight: 900 ;
 }
