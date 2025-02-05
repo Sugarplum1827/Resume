@@ -4,9 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    display: auto;
-    width: 100%;
-    max-width: 3500px;
+    display: flex;
 }
 
 .resume {
@@ -95,7 +93,7 @@ body {
 }
 
 .cite {
-    margin-top: 15%;
+    margin-top: 50%;
 }
 .cite p{
     font-size: 62.5%;
@@ -110,11 +108,4 @@ body {
     color: #272828 ;
     text-align: center;
     font-weight: 900 ;
-}
-@media (max-width: 768px) { /* Styles for screens smaller than 768px */
-
-    body {
-  
-      max-width: 70%;
-    }
 }
