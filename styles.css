@@ -41,12 +41,13 @@ body {
 .section h3{
     font-family: 'Garet', sans-serif;
     color: #3d3d3d;
-    padding-bottom: 0px;
+    
 }
 
 .section h2 {
-    font-size: 18px;
-    border-top: 3px solid #333;
+    font-size: 112.50%;
+    border-top: 3px solid #333 ;
+    border-width: auto;
     padding-top: 10px;
     padding-bottom: 0px;
     text-align: justify;
@@ -74,14 +75,14 @@ body {
 }
 
 .right-column h1 {
-    font-size: 40px;
+    font-size: 250%;
     margin-bottom: 10px;
     color: #3d3d3d ;
     font-family: 'Garet', sans-serif;
 }
 
 .right-column p {
-    font-size: 15px;
+    font-size: 93.75%;
     margin: 5px 0;
     font-family: 'Lato', sans-serif;
     color: #272828;
@@ -90,15 +91,19 @@ body {
 .title p{
     color: #737373;
 }
+
+.cite {
+    margin-top: 50%;
+}
 .cite p{
-    font-size: 10px;
+    font-size: 62.5%;
     font-family: 'Garet', sans-serif;
     color: #3d3d3d ;
     text-align: center;
     font-weight: 900 ;
 }
 .signature p{
-    font-size: 10px;
+    font-size: 62.5%;
     font-family: 'Lato', sans-serif;
     color: #272828 ;
     text-align: center;
